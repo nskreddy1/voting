@@ -1,0 +1,70 @@
+Arguments: 
+  /Users/sunilkumarnaraganti/.nvm/versions/node/v18.14.0/bin/node /usr/local/bin/yarn add truffle-contract
+
+PATH: 
+  /Library/Frameworks/Python.framework/Versions/3.6/bin:/Users/sunilkumarnaraganti/.nvm/versions/node/v18.14.0/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin:/Users/sunilkumarnaraganti/Library/Python/3.10/bin:/Users/sunilkumarnaraganti/.local/bin:/Users/sunilkumarnaraganti/Library/Python/3.10/bin:/Users/sunilkumarnaraganti/.local/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.14.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: EACCES: permission denied, mkdir '/Users/sunilkumarnaraganti/Downloads/mega_project/contest/node_modules/@ensdomains/ens/node_modules/bn.js'
+
+npm manifest: 
+  {
+    "name": "pet-shop",
+    "version": "1.0.0",
+    "main": "truffle.js",
+    "directories": {
+      "test": "test"
+    },
+    "scripts": {
+      "dev": "lite-server",
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "tsc && concurrently \"tsc -w\" \"lite-server -c bs-config.js\" "
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@truffle/contract": "4.3.33",
+      "bootstrap": "4.1.3",
+      "browser-sync-webpack-plugin": "^2.3.0",
+      "chai": "^4.1.2",
+      "chai-as-promised": "^7.1.1",
+      "chai-bignumber": "^2.0.2",
+      "concurrently": "^7.6.0",
+      "lite-server": "^2.6.0",
+      "nodemon": "^1.17.3",
+      "truffle": "^5.4.9",
+      "typescript": "^4.9.5",
+      "web3": "1.5.2"
+    },
+    "dependencies": {
+      "@metamask/legacy-web3": "^2.0.0",
+      "body-parser": "^1.19.0",
+      "ejs": "^3.1.6",
+      "express": "^4.17.1",
+      "express-session": "^1.17.1",
+      "get-age": "^1.0.1",
+      "mysql": "^2.18.1",
+      "node-addon-api": "^4.0.0",
+      "nodemailer": "^6.9.0",
+      "nodemon": "^2.0.7",
+      "solc": "^0.5.16",
+      "truffle-contract": "^4.0.31",
+      "web3": "^1.8.2"
+    },
+    "description": ""
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
